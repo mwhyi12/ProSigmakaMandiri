@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Perkalian 2 Bilangan</title>
+</head>
+<body>
+    <div>
+        <input type="number" id="number1">
+        <span>x</span>
+        <input type="number" id="number2">
+        <button id ="submit" style="background-color:rgba(134, 134, 252, 0.877)">=</button>
+        <span id="result"></span>
+        
+    </div>
+    <script>
+        const number1 = document.getElementById('number1')
+        const number2 = document.getElementById('number2')
+        const submit = document.getElementById('submit')
+        const result = document.getElementById('result')
+        submit.addEventListener('click', function(){
+            result.innerText = number1.value * number2.value
+        })
+    </script>
+</body>
+</html>

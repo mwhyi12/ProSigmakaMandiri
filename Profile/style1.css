@@ -1,0 +1,16 @@
+.col {
+    width: 30%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 0px solid;
+}
+tr:hover {
+    background-color: aqua;
+}
