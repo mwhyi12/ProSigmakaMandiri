@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Biodata</title>
+</head>
+<body>
+	<h2>BIODATA</h2>
+	<form method="post" action="hello">
+		<table>
+			<tr>
+				<td style="color: red">Nama Lengkap* :</td>
+				<td><input type="text" name="nama" required></td>
+			</tr>
+			<tr>
+				<td>Domisili :</td>
+				<td><input type="text" name="asal"></td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td>
+					<select name = "gender">
+						<option value="none" selected disabled>Select an Option</option>
+						<option value="Laki-laki">Laki-laki</option>
+						<option value="Perempuan">Perempuan</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir :</td>
+            	<td><input type="date" name="tgllhr"></td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					<button type="submit">Submit</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
